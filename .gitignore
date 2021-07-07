@@ -1,0 +1,8 @@
+# IDE config folder
+.vscode
+
+# virtual environment
+venv
+
+# java .class files
+**/*.class
