@@ -15,7 +15,7 @@ public class LCM {
   public static long getLcm(int a, int b) {
     long hcf = (a > b) ? getGcd(a, b) : getGcd(b, a);
 
-    return (a / hcf) * (b / hcf);
+    return ((long) a * b) / hcf;
   }
 
   public static void main(String[] args) {

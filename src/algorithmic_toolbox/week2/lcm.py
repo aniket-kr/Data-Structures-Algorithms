@@ -6,7 +6,7 @@ def gcd(a: int , b: int) -> int:
 
 def lcm(a: int, b: int) -> int:
     hcf = gcd(a, b) if a > b else gcd(b, a)
-    return (a // hcf) * (b // hcf)
+    return (a * b) // hcf
 
 
 if __name__ == '__main__':
